@@ -1,7 +1,6 @@
 /* 
 Project Name: Monthly Resolutions
-Client: One Month
-Author: Christopher Castig | @castig
+Author: Taren Lewis, credit to Chris Castiglione for template image
 */
 
 
@@ -25,16 +24,105 @@ Author: Christopher Castig | @castig
     clear: both;
 }
 
-
-/*
-.bGround {
-    background-image: url('../images/notebook.png');
-    background-repeat: repeat;
-}*/
-
 body {
     background-image: url("../images/notebook.png");
     background-repeat: repeat;
+}
+
+.monthlyBlog {
+    width: 700px;
+    background: white;
+    padding: 25px;
+    float: left;
+    margin: 0;
+    box-shadow: -1px -2px 5px 0 #555;
+}
+
+.monthlyBlog2 {
+    width: 700px;
+    background: white;
+    padding: 25px;
+    float: left;
+    margin: 0;
+    /*box-shadow: -1px -2px 5px 0 #555;*/
+    box-shadow: -1px 0px 5px 0 #555;
+}
+
+.pageTitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: -4.5px;
+    font-size: 60px;
+    margin: 50px 0 0;
+}
+
+.blogTitle {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin: 10px 0 5px;
+}
+
+.sidebarFormat {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 0px 0px 0px 20px;
+}
+
+.sidebarImageFormat {
+    width: 200px;
+    padding: 15px;
+}
+
+.hrFormat {
+    border-top: 5px dotted gray;
+}
+
+.linkFormat {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: orange;
+    padding: 0 0 35px 0;
+}
+
+.footnoteFormat {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+    margin: 0;
+    padding: 15px 0px 25px 0px;
+}
+
+.blogImageFormat {
+    width: 650px;
+}
+
+.pageTitleDescription {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    margin: -6px 0px 30px;
+}
+
+.footerFormat {}
+
+.resolutionDescription {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    padding: 15px 0px 5px 0px;
+}
+
+.floatLeft {
+    float: left;
 }
 
 
@@ -42,24 +130,38 @@ body {
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
 
-#main {
-    width: 800px;
-    background: white;
-}
-
 #container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto 0 auto;
     background: transparent;
 }
 
 #header {
-    padding: 30px;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
 }
 
-#sidebar {}
+#sidebar {
+    width: 290px;
+    margin-left: 10px;
+    padding: 10px;
+    background: white;
+    float: right;
+    box-shadow: -1px -2px 5px 0 #555;
+}
+
+#blockquote {
+    border-left: 5px solid #eee;
+    font: italic bold 12px/30px 'Lato', sans-serif;
+    font-size: 15px;
+    padding-left: 12px;
+}
+
+#footer {
+    float: left;
+}
 
 
 /*----------------------------------------------------------------------------- 
