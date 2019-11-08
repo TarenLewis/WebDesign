@@ -1,11 +1,11 @@
 /* 
 Project Name: Monthly Resolutions
-Author: Taren Lewis, credit to Chris Castiglione for template image
+Author: Taren Lewis, with credit & Template by Christ Castiglione @ Onemonth: https://onemonth.com/dashboard
 */
 
 
 /*----------------------------------------------------------------------------- 
-01=BASE   
+GENERAL FORMATTING   
 -----------------------------------------------------------------------------*/
 
 
@@ -29,24 +29,13 @@ body {
     background-repeat: repeat;
 }
 
-.monthlyBlog {
-    width: 700px;
-    background: white;
-    padding: 25px;
-    float: left;
-    margin: 0;
-    box-shadow: -1px -2px 5px 0 #555;
-}
 
-.monthlyBlog2 {
-    width: 700px;
-    background: white;
-    padding: 25px;
-    float: left;
-    margin: 0;
-    /*box-shadow: -1px -2px 5px 0 #555;*/
-    box-shadow: -1px 0px 5px 0 #555;
-}
+/*----------------------------------------------------------------------------- 
+TITLE
+-----------------------------------------------------------------------------*/
+
+
+/*Website Title Formatting */
 
 .pageTitle {
     font-family: 'Lato', sans-serif;
@@ -56,6 +45,33 @@ body {
     margin: 50px 0 0;
 }
 
+.pageTitleDescription {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    margin: -6px 0px 30px;
+}
+
+
+/*----------------------------------------------------------------------------- 
+BLOG 
+-----------------------------------------------------------------------------*/
+
+
+/*Blog post formatting*/
+
+.monthlyBlog {
+    width: 700px;
+    background: white;
+    padding: 25px;
+    float: left;
+    box-shadow: -1px -2px 5px 0 #555;
+}
+
+
+/* Blog Title Example:  Learn HTML  or Learn to play guitar  */
+
 .blogTitle {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -63,6 +79,45 @@ body {
     font-size: 30px;
     margin: 10px 0 5px;
 }
+
+.blogImageFormat {
+    width: 650px;
+}
+
+
+/*Describes the monthly resolution*/
+
+.blogResolutionDescription {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 0px 5px 0px;
+}
+
+
+/*footnote "This blog post by Taren Lewis, etc"*/
+
+.blogFootnoteFormat {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+    padding: 15px 0px 25px 0px;
+}
+
+.hrFormat {
+    border-top: 5px dotted gray;
+}
+
+
+/*----------------------------------------------------------------------------- 
+SIDEBAR
+-----------------------------------------------------------------------------*/
+
+
+/*Sidebar Formatting*/
 
 .sidebarFormat {
     font-family: 'Lato', sans-serif;
@@ -76,11 +131,7 @@ body {
     padding: 15px;
 }
 
-.hrFormat {
-    border-top: 5px dotted gray;
-}
-
-.linkFormat {
+.sidebarLink {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
@@ -88,46 +139,9 @@ body {
     padding: 0 0 35px 0;
 }
 
-.footnoteFormat {
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
-    font-size: 15px;
-    color: gray;
-    text-align: left;
-    margin: 0;
-    padding: 15px 0px 25px 0px;
-}
-
-.blogImageFormat {
-    width: 650px;
-}
-
-.pageTitleDescription {
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
-    font-size: 17px;
-    text-align: left;
-    margin: -6px 0px 30px;
-}
-
-.footerFormat {}
-
-.resolutionDescription {
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: left;
-    margin: 0;
-    padding: 15px 0px 5px 0px;
-}
-
-.floatLeft {
-    float: left;
-}
-
 
 /*----------------------------------------------------------------------------- 
-02=LAYOUT  
+LAYOUT IDs
 -----------------------------------------------------------------------------*/
 
 #container {
