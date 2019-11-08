@@ -1,4 +1,11 @@
 /*
+Document Name: Happy Birthday Website (CSS)
+Description: A website designed to invite people to a birthday party
+Created by: Taren Lewis, with credit & Template by Christ Castiglione @ Onemonth: https://onemonth.com/dashboard
+*/
+
+
+/*
  * General Styles
 */
 
@@ -20,10 +27,6 @@ body {
     content: "";
     display: table;
     clear: both;
-}
-
-.backgroundGray {
-    background-color: lightgray;
 }
 
 .center {
@@ -50,22 +53,18 @@ body {
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.75;
-    margin-bottom: 28px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-left: 80px;
+    margin-right: 80px;
+    line-height: 1;
 }
 
-strong {
-    font-weight: bold;
-}
-
-.formatUnicorn img {
-    display: block;
-    width: 125px;
-}
-
-ul li {
-    list-style: decimal inside;
+img {
+    width: 100%;
 }
 
 
@@ -76,14 +75,11 @@ ul li {
 h1,
 h2 {
     font-family: 'Lobster', cursive;
+    font-size: 50px;
     color: #e22f8f;
     text-align: center;
     margin-bottom: 32px;
     margin-top: 32px;
-}
-
-h1 {
-    font-size: 50px;
 }
 
 h2 {
@@ -94,21 +90,6 @@ h3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 25px;
-}
-
-img {
-    width: 100%;
-}
-
-.paragraph {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 32px;
-    margin-top: 32px;
-    margin-left: 80px;
-    margin-right: 80px;
-    line-height: 1;
 }
 
 
@@ -132,8 +113,3 @@ img {
     padding: 20px 0px 0px 0px;
     background: lightgray;
 }
-
-
-/*
- * Aside Styles
-*/
