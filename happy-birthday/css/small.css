@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    padding: 0px;
+}
+
+.right {
+    float: inherit;
+}
+
+.left {
+    float: inherit;
+}
