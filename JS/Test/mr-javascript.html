@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mr. JavaScript</title>
+</head>
+
+<body>
+    <h1>I'm Mr. Meeseeks!</h1>
+    <a href="#" class="reset">Hello...</a>
+    <a href="#" class="howareyou">Hey Mr. Meeseeks how are you?</a>
+
+    <script type="text/javascript">
+        console.log("testing..1, 2");
+
+        var a = document.querySelector(".howareyou");
+        console.log(a);
+        a.addEventListener('click', function() {
+
+            var h1 = document.querySelector("h1");
+            h1.innerHTML = "I’m Mr. Meeseeks! Look at me!";
+            console.log(h1);
+        });
+
+
+        var reset = document.querySelector(".reset");
+        console.log(reset);
+        reset.addEventListener('click', function() {
+            //alert("Listener test");
+
+            var h1 = document.querySelector("h1");
+            h1.innerHTML = "I'm Mr. Meeseeks!";
+            console.log(h1);
+        });
+
+
+
+
+        //script end
+    </script>
+</body>
+
+</html>

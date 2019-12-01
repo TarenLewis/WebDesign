@@ -5,14 +5,17 @@ Created by: Taren Lewis, with credit & Template by Christ Castiglione @ Onemonth
 */
 
 
-/*
- * General Styles
-*/
+/*----------------------------------------------------------------------------- 
+GENERAL FORMATTING   
+-----------------------------------------------------------------------------*/
 
 body {
     background-image: url("../images/space-background.png");
-    /*background: #DDD;*/
     font-family: 'Open Sans', arial, sans-serif;
+    /*Full page background image (bg follows window resizing)*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 * {
@@ -54,13 +57,13 @@ body {
 }
 
 p {
+    /*paragraph style*/
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 25px;
-    margin-top: 32px;
-    margin-left: 80px;
-    margin-right: 80px;
-    line-height: 1;
+    font-size: 1.563rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 img {
@@ -68,47 +71,55 @@ img {
 }
 
 
-/*
- * Heading Styles
-*/
+/*----------------------------------------------------------------------------- 
+HEADING STYLES
+-----------------------------------------------------------------------------*/
 
 h1,
 h2 {
     font-family: 'Lobster', cursive;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #e22f8f;
     text-align: center;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 h3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.563rem;
+    padding: 0.625rem;
 }
 
 
-/*
- * Container Styles
-*/
+/*----------------------------------------------------------------------------- 
+CONTAINER STYLES
+-----------------------------------------------------------------------------*/
 
 .container {
-    width: 600px;
+    width: 37.5rem;
     margin-right: auto;
     margin-left: auto;
     background: #FFF;
 }
 
 .intro {
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .conclusion {
-    padding: 20px 0px 0px 0px;
+    padding: 1.25rem 0px 0px 0px;
     background: lightgray;
+}
+
+.map-responsive {
+    height: 0;
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
 }

@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    padding: 0px;
+    padding: 0rem;
 }
 
 .right {
@@ -9,4 +9,12 @@
 
 .left {
     float: inherit;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
